@@ -4,7 +4,7 @@ let img;
 let picked = 0;
 
 function preload () {
-	if (random(1) < 1.1) {
+	if (random(1) < 0.5) {
   		img = loadImage("i_love_you.png");
   		picked = 1;
   	} else {
